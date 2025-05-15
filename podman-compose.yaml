@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  terrastratos:
+    image: terrastratos:latest
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.terrastratos.rule=Host(`terrastratos.com`) || Host(`www.terrastratos.com`)"
+      - "traefik.http.routers.terrastratos.entrypoints=websecure"
+      - "traefik.http.routers.terrastratos.tls.certresolver=myresolver"
+      - "traefik.http.services.terrastratos.loadbalancer.server.port=8181"
