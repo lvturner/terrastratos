@@ -7,7 +7,7 @@
     --deep-sky-blue: #5CC2F2ff;
     --light-blue: #C1EAF2ff;
     --white: #FFFFFFff;
-    --dark-grey: #6c757d; /* Lighter grey */
+    --dark-grey: #7d8a98; /* Slightly lighter grey */
 }
 
 * {
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto;
