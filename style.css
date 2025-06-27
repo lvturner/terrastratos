@@ -37,14 +37,14 @@ body {
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: var(--dark-grey); /* Darker grey */
-    color: var(--white); /* White text for contrast */
+    background: var(--dark-grey); /* Light grey background */
+    color: #333; /* Dark text for better contrast */
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: inherit; /* Inherits white from .hero */
+    color: inherit; /* Inherits dark color from .hero */
 }
 
 .cta-button {
