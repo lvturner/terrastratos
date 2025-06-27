@@ -11,12 +11,12 @@ body {
 }
 
 .header {
-    background: #1a1a1a;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .logo {
-    max-height: 50px;
+    max-width: 300px;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
