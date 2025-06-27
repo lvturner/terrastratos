@@ -7,6 +7,7 @@
     --deep-sky-blue: #5CC2F2ff;
     --light-blue: #C1EAF2ff;
     --white: #FFFFFFff;
+    --dark-grey: #495057; /* New darker grey */
 }
 
 * {
@@ -36,13 +37,14 @@ body {
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: #f8f9fa; /* Light grey */
+    background: var(--dark-grey); /* Darker grey */
+    color: var(--white); /* White text for contrast */
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: var(--zaffre);
+    color: inherit; /* Inherits white from .hero */
 }
 
 .cta-button {
